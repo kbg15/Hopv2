@@ -1,15 +1,18 @@
 
 a > img {
-  height: 250px;
   width: 100% ;
+  height: 250px;
+  //prufa 
 }
 
 .card {
-  display: flex;
   flex-direction: column;
+  display: flex;
+//spurja kolla út í uppsetninguna
 
   &__poster {
-    display:flex;
     object-fit: contain;
+    display:flex;
+    //meikar aðeins meiri sens
   }
 }
