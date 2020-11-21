@@ -1,5 +1,5 @@
-import { fetchVideo } from './lib/api';
-import { el, element, empty, isRelated, formatDate } from './lib/utils';
+import { fetchVideo } from './lib/prufa';
+import { el, element, empty, isRelated, formatDate } from './lib/ifelse';
 
 document.addEventListener('DOMContentLoaded', async () => {
 const main = document.querySelector('main');
