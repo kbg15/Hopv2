@@ -4,21 +4,23 @@
 // Hér skal nota scss @for til að ítra út klösum fyrir grid
 .grid {
   margin: 0 auto;
-  max-width: $max-width;
   overflow: hidden;
+  max-width: $max-width;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -10px;
   margin-right: -10px;
+  margin-left: -10px;
 }
 
+//ekki gleyma!!!
+
 .col {
-  padding-left: 10px;
   padding-right: 10px;
   width: 100%;
+  padding-left: 10px;
 }
 
 @for $i from 1 through $columns {
@@ -30,9 +32,7 @@
   }
 }
 
-/*
-medium—upp að 800px
-*/
+//*100% 
 
 @media (max-width: 799px) {
   @for $i from 1 through $columns {
@@ -45,9 +45,8 @@ medium—upp að 800px
   }
 }
 
-/*
-small—upp að 500px
-*/
+//sama og sem kolli kenndi
+
 @media (max-width: 499px) {
   @for $i from 1 through $columns {
     .col-sm-#{$i} {
