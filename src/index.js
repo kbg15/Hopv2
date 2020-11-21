@@ -7,6 +7,7 @@ const data = await fetchVideo();
 console.log(data);
 console.log(data.categories);
 
+  //Skoðum appenChild hja okkur
   data.categories.forEach(categories => {
     const line = element('hr', { class: 'line col col-10 offset-col-1' }, null, null, ' ');
     const catVidRel = categories.videos;
@@ -21,7 +22,9 @@ console.log(data.categories);
       main.appendChild(category);
 
       data.videos.forEach(videos => {
-        // const related = videos.related;
+        //Kolli hjálp hér, með video elementin o.fl
+        //Ath nullin
+        // const related samsvarar videos.related;
         const id = videos.id;
         console.log(id);
         const rCheck = isRelated(catVidRel, id);
