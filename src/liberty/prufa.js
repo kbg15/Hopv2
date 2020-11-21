@@ -1,5 +1,9 @@
+
+//Prófaði let url first en það er þægilegra að vinna með const url
 const url = '.../.././videos.json';
 
+
+//Notum let response hér, því það er léttara að gera breytingar ef þess þarf á kóðanum með let staðinn fyrir const
 export async function fetchVideo() {
     let response;
     try {
@@ -15,6 +19,5 @@ export async function fetchVideo() {
     }
 
     response = await response.json();
-    // console.log(response);
     return response;
 }

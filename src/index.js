@@ -1,4 +1,4 @@
-import { fetchVideo } from './lib/prufa';
+import { fetchVideo } from './liberty/prufa';
 import { el, element, empty, isRelated, formatDate } from './lib/ifelse';
 
 document.addEventListener('DOMContentLoaded', async () => {

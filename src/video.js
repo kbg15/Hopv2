@@ -1,5 +1,5 @@
-import { fetchVideo } from './lib/api';
-import { el, element, empty, isRelated, formatDate, allRelated } from './lib/utils';
+import { fetchVideo } from './liberty/api';
+import { el, element, empty, isRelated, formatDate, allRelated } from './liberty/utils';
 
 document.addEventListener('DOMContentLoaded', async () => {
 const main = document.querySelector('main');
