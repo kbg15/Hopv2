@@ -1,12 +1,12 @@
 import { fetchVideo } from './liberty/prufa';
 import { el, element, empty, isRelated, formatDate } from './lib/ifelse';
-//breytum function yfir í => sem gerir þetta þægilegra
+
 document.addEventListener('DOMContentLoaded', async () => {
 const main = document.querySelector('main');
 const data = await fetchVideo();
 console.log(data);
 console.log(data.categories);
-  //Villurnar hjá lagfærðar
+
   data.categories.forEach(categories => {
     const line = element('hr', { class: 'line col col-10 offset-col-1' }, null, null, ' ');
     const catVidRel = categories.videos;
@@ -21,9 +21,7 @@ console.log(data.categories);
       main.appendChild(category);
 
       data.videos.forEach(videos => {
-        //Spurja Kolla isRelated og null
-        //Ath á avideoRow og elementum
-        // const related jafngildir videos.related;
+        // const related = videos.related;
         const id = videos.id;
         console.log(id);
         const rCheck = isRelated(catVidRel, id);
