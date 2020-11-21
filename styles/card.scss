@@ -1,0 +1,15 @@
+
+a > img {
+  height: 250px;
+  width: 100% ;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  &__poster {
+    display:flex;
+    object-fit: contain;
+  }
+}
