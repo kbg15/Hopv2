@@ -1,10 +1,10 @@
-import { fetchVideo } from './liberty/api';
-import { el, element, empty, isRelated, formatDate, allRelated } from './liberty/utils';
+import { fetchVideo } from './liberty/prufa';
+import { el, element, empty, isRelated, formatDate, allRelated } from './liberty/ifelse';
 
 document.addEventListener('DOMContentLoaded', async () => {
 const main = document.querySelector('main');
 const data = await fetchVideo();
-
+//Lagfært nánast allar villur í element nullinu.
 const mainVideo =
 element('div', { class: 'grid' }, null,null, ' ',
   element('div', { class: 'row' }, null, null, ' ',
