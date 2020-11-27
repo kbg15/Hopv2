@@ -1,7 +1,7 @@
 {
   "name": "hop2",
   "version": "1.0.0",
-  "description": "Hópverkefni 2 í Vefforritun",
+  "description": "Hópverkefni 2 (Vefforritun 2020)",
   "main": "index.js",
   "scripts": {
     "build": "rollup -c",
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bjarnig86/hop2.git"
+    "url": "git+https://github.com/kbg15/hop2.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bjarnig86/hop2/issues"
+    "url": "https://github.com/kbg15/hop2/issues"
   },
-  "homepage": "https://github.com/bjarnig86/hop2#readme",
+  "homepage": "https://github.com/kbg15/hop2#readme",
   "devDependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
