@@ -4,7 +4,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import { terser } from 'rollup-plugin-terser';
 
 module.exports = {
-  input: './src/index.js',
+  input: './src/index.js ./src/video.js',
   output: {
     file: './dist/bundle.js',
     format: 'iife',
