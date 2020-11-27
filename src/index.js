@@ -1,5 +1,5 @@
 import { fetchVideo } from './liberty/prufa';
-import { el, element, empty, isRelated, formatDate } from './lib/ifelse';
+import { el, element, empty, isRelated, formatDate } from './liberty/ifelse';
 
 document.addEventListener('DOMContentLoaded', async () => {
 const main = document.querySelector('main');

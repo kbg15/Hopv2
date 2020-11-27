@@ -1,5 +1,5 @@
-import { fetchVideo } from './lib/prufa';
-import { el, element, empty, isRelated, formatDate, allRelated } from './lib/ifelse';
+import { fetchVideo } from './liberty/prufa';
+import { el, element, empty, isRelated, formatDate, allRelated } from './liberty/ifelse';
 
 
 //Nú þurfum við ekkert að breyta kóðann okkar mikið og notum helst const staðinn f. let
